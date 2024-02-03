@@ -1,0 +1,19 @@
+<div class="ngx-tabby-label-container">
+  @for (tab of tabs; track tab.tabId) { @if(tab.tabHeader){
+  <div (click)="tabsState.selectTab(tab.tabId)">
+    <ng-container *ngTemplateOutlet="tab.tabHeader.tempRef"></ng-container>
+  </div>
+  } @else{
+  <div
+    class="ngx-tabby-label"
+    (click)="tabsState.selectTab(tab.tabId)"
+    [class.selected]="tab.isSelected()"
+  >
+    {{ tab.label() }}
+  </div>
+
+  } }
+</div>
+<div [@tabAnimation]="tabsState.selectedTab()">
+  <ng-content></ng-content>
+</div>
