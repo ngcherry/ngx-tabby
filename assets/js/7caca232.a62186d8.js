@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[8960],{872:a=>{a.exports=JSON.parse('{"label":"facebook","permalink":"/ngx-tabby/blog/tags/facebook","allTagsPath":"/ngx-tabby/blog/tags","count":1,"unlisted":false}')}}]);
