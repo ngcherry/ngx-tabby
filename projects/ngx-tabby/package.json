@@ -1,6 +1,7 @@
 {
-  "name": "ngx-tabby",
+  "name": "@ngcherry/ngx-tabby",
   "version": "0.0.1",
+  "private": false,
   "peerDependencies": {
     "@angular/common": "^17.1.0",
     "@angular/core": "^17.1.0"
@@ -8,5 +9,16 @@
   "dependencies": {
     "tslib": "^2.3.0"
   },
-  "sideEffects": false
+  "sideEffects": false,
+  "description": "Read the documentation [here](https://ngcherry.github.io/ngx-tabby/)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngcherry/ngx-tabby.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ngcherry/ngx-tabby/issues"
+  },
+  "homepage": "https://github.com/ngcherry/ngx-tabby#readme"
 }
