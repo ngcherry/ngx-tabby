@@ -1,8 +1,8 @@
-import { NgxTabbyHeaderDirective } from './ngx-tabby-header.directive';
+import { NgxTabbyHeader } from './ngx-tabby-header.directive';
 
 describe('NgxTabbyHeaderDirective', () => {
   it('should create an instance', () => {
-    const directive = new NgxTabbyHeaderDirective();
+    const directive = new NgxTabbyHeader();
     expect(directive).toBeTruthy();
   });
 });

@@ -2,7 +2,7 @@ import { Injectable, signal } from '@angular/core';
 
 @Injectable()
 export class NgxTabbyService {
-  startTabId = 0;
+  private _startTabId = 0;
 
   private _selectedTab = signal<number>(0);
 
@@ -17,6 +17,6 @@ export class NgxTabbyService {
   }
 
   addTab() {
-    return this.startTabId++;
+    return this._startTabId++;
   }
 }

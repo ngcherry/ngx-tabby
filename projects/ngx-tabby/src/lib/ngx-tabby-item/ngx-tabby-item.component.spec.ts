@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgxTabbyItemComponent } from './ngx-tabby-item.component';
+import { NgxTabbyItem } from './ngx-tabby-item.component';
 
 describe('NgxTabbyItemComponent', () => {
-  let component: NgxTabbyItemComponent;
-  let fixture: ComponentFixture<NgxTabbyItemComponent>;
+  let component: NgxTabbyItem;
+  let fixture: ComponentFixture<NgxTabbyItem>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [NgxTabbyItemComponent]
+      imports: [NgxTabbyItem]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(NgxTabbyItemComponent);
+    fixture = TestBed.createComponent(NgxTabbyItem);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
