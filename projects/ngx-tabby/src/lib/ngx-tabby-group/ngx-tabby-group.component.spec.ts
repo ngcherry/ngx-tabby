@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NgxTabbyGroupComponent } from './ngx-tabby-group.component';
+import { NgxTabbyGroup } from './ngx-tabby-group.component';
 
 describe('NgxTabbyGroupComponent', () => {
-  let component: NgxTabbyGroupComponent;
-  let fixture: ComponentFixture<NgxTabbyGroupComponent>;
+  let component: NgxTabbyGroup;
+  let fixture: ComponentFixture<NgxTabbyGroup>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [NgxTabbyGroupComponent]
+      imports: [NgxTabbyGroup]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(NgxTabbyGroupComponent);
+    fixture = TestBed.createComponent(NgxTabbyGroup);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
